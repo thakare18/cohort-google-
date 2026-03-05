@@ -40,3 +40,4 @@ const sendEmail = async (to, subject, text, html) => {
 };
 
 module.exports = sendEmail;
+module.exports.transporter = transporter; // Export the transporter for testing purposes
